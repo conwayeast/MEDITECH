@@ -1,0 +1,22 @@
+.title{
+	background: #f1f1f1;
+	padding-top: 1em;
+}
+section{
+	padding: 2em 0;
+}
+article{
+	padding: 4em 0;
+}
+a.readmore{
+	font-size: 0.8rem;
+	margin-bottom: 1rem;
+	float: right;
+	text-decoration: none;
+	color: $key-west;
+	border-bottom: 1px solid transparent;
+	&:hover{
+		color: $blueberry;
+		border-bottom: 1px solid $blueberry;
+	}
+}

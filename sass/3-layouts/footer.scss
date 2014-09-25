@@ -1,0 +1,57 @@
+footer{
+	// padding: 3em 0;
+}
+
+.contactform{
+	background:#E0E0E0;
+	padding: 5em 0;
+}
+
+.newsletter{
+	background-color: $fresh-mint;
+	padding: 4em 0;
+}
+
+.sitemap{
+	padding: 4em 0;
+	a{
+		text-decoration: none;
+		color: $key-west;
+		&:hover{
+			color: $blueberry;
+		}
+	}
+	ul{
+		padding-left: 0;
+		li{
+			list-style: none;
+		}
+	}
+}
+
+.footerbottom{
+	background-color: $fresh-mint;
+	padding: 4em 0 2em 0;
+	h5{
+	font-family: $meditech;
+	font-weight: $bold;
+	color: $heading-text-color;
+	}
+	ul{
+		margin-top: 0;
+		li{
+			display: inline-block;
+			margin-right: 2em;
+			&:last-child{
+				margin-right: 0;
+			}
+			a{
+				color: #fff;
+				text-decoration: none;
+				&:hover{
+					color: $blueberry;
+				}
+			}
+		}
+	}
+}

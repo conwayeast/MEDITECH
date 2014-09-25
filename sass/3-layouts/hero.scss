@@ -1,0 +1,17 @@
+// HERO UNIT PARALLAX
+
+.hero-unit{
+  background-image: url('http://www.lorempixel.com/1600/600/abstract/');
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.herocontent{
+  @include parallax(0.2);
+  padding: 10em 1em 2em 1em;
+  h1, h2{
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  }
+
+}
