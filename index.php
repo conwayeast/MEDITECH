@@ -229,25 +229,31 @@
 		</div>
 	</div>
 
-	<div class="row">
+
 		<div class="news-article">
-			<div class="medium-6 column">
 				<h4><a href="#">Phoebe Putney Health System Picks MEDITECH 6.1&nbsp;EHR</a></h4>
 				<h5 class="italicize">May 3</h5>
 				<p style="margin-bottom:0;">Phoebe Putney Memorial Hospital, a 691-bed teaching hospital in Albany, GA, has chosen to implement MEDITECH’s 6.1 electronic health record (EHR) after careful consideration of several EHR&nbsp;vendors.</p>
 				<a href="#" class="readmore">READ MORE</a>
 			</div>
-		</div>
 
-		<div class="medium-6 column">
+
 			<div class="news-article">
 				<h4><a href="#">MEDITECH’s EHR: Helping Nurses to Give and Receive the Benefits of Inspired Care</a> </h4>
 				<h5 class="italicize">May 3</h5>
 				<p style="margin-bottom:0;">Every day, nurses challenge themselves to deliver inspired care. That’s why we devoted our twelfth annual Nurse and Home Care Forum to exploring how a supportive environment— enhanced by an integrated EHR—helps to keep nursing staff energized, and.</p>
 				<a href="#" class="readmore">READ MORE</a>
 			</div>
-		</div>
-	</div>
+
+			<div class="news-article">
+				<h4><a href="#">MEDITECH’s EHR: Helping Nurses to Give and Receive the Benefits of Inspired Care</a> </h4>
+				<h5 class="italicize">May 3</h5>
+				<p style="margin-bottom:0;">Every day, nurses challenge themselves to deliver inspired care. That’s why we devoted our twelfth annual Nurse and Home Care Forum to exploring how a supportive environment— enhanced by an integrated EHR—helps to keep nursing staff energized, and.</p>
+				<a href="#" class="readmore">READ MORE</a>
+			</div>
+
+
+
 
 	<div class="row">
 		<div class="medium-6 column">

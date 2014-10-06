@@ -28,17 +28,16 @@
 <!-- End of HERO section -->
 
 
+
+<div class="centered-container">
 <!-- SOLUTIONS PHYSICIAN CONTENT-->
-<div class="row">
 
 	<!-- Left Column -->
-	<div class="medium-8 column">
-		<div class="panel">
-			<h2>Our EHR Completes the Puzzle</h2>
-			<p><strong>Healthcare today is all about bringing many different pieces of information together, to produce better outcomes for patients. MEDITECH’s EHR can help providers to complete the quality care puzzle, by enhancing clinical communication, preventing medical errors and hospital-acquired infections, as well as tracking process improvements.</strong>
-			</p>
-			<p>We know you want the best for your patients—and our solutions may be just what the doctor ordered. With our EHR, you can keep patients safer and healthier.</p>
-		</div>
+	<div class="two-third">
+		<h2>Our EHR Completes the Puzzle</h2>
+		<p><strong>Healthcare today is all about bringing many different pieces of information together, to produce better outcomes for patients. MEDITECH’s EHR can help providers to complete the quality care puzzle, by enhancing clinical communication, preventing medical errors and hospital-acquired infections, as well as tracking process improvements.</strong>
+		</p>
+		<p>We know you want the best for your patients—and our solutions may be just what the doctor ordered. With our EHR, you can keep patients safer and healthier.</p>
 		<h2>Patient Safety &amp; Quality Care</h2>
 		<p>MEDITECH’s mission is, and always has been, to create software that enables physicians, nurses, and other clinicians to deliver safe and effective patient care. Here’s how we do it:</p>
 		<h3>By giving healthcare providers access to accurate and complete patient histories.</h3>
@@ -61,12 +60,15 @@
 		<ul>
 
 	</div>
-	<!-- End of Left Column - .medium-8 -->
+	<!-- End of Left Column -->
 
 	<?php include( "_includes/solutionstopicSidebar.php"); ?>
 
 </div>
 <!-- End of SOLUTIONS PHYSICIAN CONTENT -->
+
+</div>
+
 
 <!-- FOOTER -->
 <?php include( "_includes/footer.inc"); ?>

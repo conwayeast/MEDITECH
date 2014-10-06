@@ -1,28 +1,37 @@
-aside{
-	.panel{
-		position: relative;
-		dl{
-			dd{
-				padding: .8em 0 1em 0;
-				border-bottom: 1px solid #ccc;
-				&:last-child{
-					border-bottom: none;
-					padding-bottom: 0;
-					}
-				a{
-					text-decoration: none;
-					color: $key-west;
-					&:hover{
-						color: $blueberry;
-					}
-					&:before {
-						content: "\00bb";
-						position: absolute;
-						padding-right: 1.5em;
-						right: 0;
-					}
+.sidebar{
+	padding-left: 1em;
+	@include span-columns(4);
+}
+
+.panel{
+	background: #f1f1f1;
+	padding: 1em;
+	position: relative;
+}
+
+
+.sidebar__nav{	
+		padding:0;
+		list-style-type: none;
+		li{
+			padding: .8em 0 1em 0;
+			border-bottom: 1px solid #ccc;
+			&:last-child{
+				border-bottom: none;
+				padding-bottom: 0;
+				}
+			a{
+				text-decoration: none;
+				color: $key-west;
+				&:hover{
+					color: $blueberry;
+				}
+				&:before {
+					content: "\00bb";
+					position: absolute;
+					padding-right: 1.5em;
+					right: 0;
 				}
 			}
 		}
-	}
 }

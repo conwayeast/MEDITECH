@@ -1,7 +1,3 @@
-.title{
-	background: #f1f1f1;
-	padding-top: 1em;
-}
 section{
 	padding: 2em 0;
 }
@@ -10,4 +6,30 @@ article{
 	@include outer-container;
 }
 
+.full-width-container{
+  width: 100%;
+}
 
+.full-width-container--fresh-mint{
+  background-color: $fresh-mint;
+}
+
+.full-width-container--black-coconut{
+  background-color: $black-coconut;
+  color: #fff;
+}
+
+.centered-container{
+  @include outer-container;
+}
+
+.two-third{
+  @include span-columns(8);
+  padding-right: 1em;
+}
+
+.news-article{
+  @include span-columns(4);
+  padding: 0.5%;
+  margin: 0;
+}

@@ -61,7 +61,7 @@
 ================================= -->
 
 <!-- NAV -->
-<nav id="nav">
+<!-- <nav id="nav">
   <div class="row">
   <div class="column">
   <ul class="menu small">
@@ -84,20 +84,20 @@
     </li>
     <li><a href="contact.php">Contact</a>
     </li>
-  </ul>
+  </ul> -->
   
   <!-- Secondary Nav -->
-  <ul class="nav-buttons">
+  <!-- <ul class="nav-buttons">
     <li>
       <a class="search-menu sb-close" href="#"></a>
     </li>
     <li>
       <a class="login-menu sb-toggle-right" href="#"></a>
     </li>
-  </ul>
+  </ul> -->
   
   <!-- SEARCH DROPDOWN -->
-  <div id="js-searchbox">
+  <!-- <div id="js-searchbox">
     <form class="searchform" role="search" method="get" id="searchform" action="">
       <input id="s" type="text" placeholder="Search meditech.com">
       <a href="#" class="button postfix">Search</a>
@@ -106,7 +106,7 @@
   <div class="clear"></div>
   </div>
   </div>
-</nav>
+</nav> -->
 <!-- End of NAV -->
 
 <!-- ============================

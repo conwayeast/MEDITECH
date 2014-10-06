@@ -14,11 +14,9 @@
 	<div class="medium-8 columns">
 		<!-- HERO -->
 
-	<div class="row">
-		<div class="column">
+<article>
+	<div class="two-third">
 			<img src="http://lorempixel.com/g/620/320/">
-		</div>
-		<div class="column">
 			<h1>The Critical Role of 'Delightful' Design in Mobile Healthcare</h1>
 			<p>June 6, 2014 &nbsp;|&nbsp; <em><a href="#">Stage 6</a>, <a href="#">HIMSS</a></em>
 			</p>
@@ -30,34 +28,34 @@
 
 			<p>But if, in the face of all this, you still declare that whaling has no aesthetically noble associations connected with it, then am I ready to shiver fifty lances with you there, and unhorse you with a split helmet every time.</p>
 		</div>
-		</div>
-	</div>
+
 	
-	<div class="medium-4 columns">
-		<div class="row">
-			<div class="columns panel">
-				<!-- Right Menu Section -->
-				<h3>Related Articles</h3>
-				<p><a href="#">My Case for a Glass-ified EMR</a>
-					<br>December 20, 2014
-				</p>
-				<hr>
-				<p><a href="#">We Should Be Pushing Interoperability Boundaries, Not EHR Certification Timelines</a>
-					<br>June 23, 2014
-				</p>
-				<hr>
-				<p><a href="#">My Inspiration and Drive to Re-imagine and Redesign an EMR</a>
-					<br>June 23, 2014
-				</p>
-				<hr>
-				<p><a href="#">Finding Technology That Supports My Orthopedic Practice Today and Tomorrow</a>
-					<br>June 23, 2014
-				</p>
-				<!-- End Right Menu Section -->
-			</div>
-		</div>
+	<aside class="sidebar">
+	<div class="panel">
+		<!-- Right Menu Section -->
+		<h3>Related Articles</h3>
+		<p><a href="#">My Case for a Glass-ified EMR</a>
+			<br>December 20, 2014
+		</p>
+		<hr>
+		<p><a href="#">We Should Be Pushing Interoperability Boundaries, Not EHR Certification Timelines</a>
+			<br>June 23, 2014
+		</p>
+		<hr>
+		<p><a href="#">My Inspiration and Drive to Re-imagine and Redesign an EMR</a>
+			<br>June 23, 2014
+		</p>
+		<hr>
+		<p><a href="#">Finding Technology That Supports My Orthopedic Practice Today and Tomorrow</a>
+			<br>June 23, 2014
+		</p>
+		<!-- End Right Menu Section -->
 	</div>
+	</aside>
+
 </div>
+
+</article>
 
 <!-- FOOTER -->
 <?php include( '_includes/footer.inc'); ?>

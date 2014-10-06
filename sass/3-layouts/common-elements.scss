@@ -8,15 +8,39 @@ section{
 article{
 	padding: 4em 0;
 }
-a.readmore{
-	font-size: 0.8rem;
-	margin-bottom: 1rem;
-	float: right;
-	text-decoration: none;
-	color: $key-west;
-	border-bottom: 1px solid transparent;
-	&:hover{
-		color: $blueberry;
-		border-bottom: 1px solid $blueberry;
-	}
+
+hr{
+  @include outer-container;
 }
+
+// LINKS
+a.readmore{
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  float: right;
+  text-decoration: none;
+  color: $key-west;
+  border-bottom: 1px solid transparent;
+  &:hover{
+    color: $blueberry;
+    border-bottom: 1px solid $blueberry;
+  }
+}
+
+
+.full-width-block{
+	width: 100%;
+}
+
+.full-width-block--fresh-mint{
+	background-color: $fresh-mint;
+}
+
+.full-width-block-header{
+	@include outer-container;
+	padding: 1em 0;
+}
+
+
+
+
