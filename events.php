@@ -24,7 +24,7 @@
       <h3 class="filter__title">Filter Events By:</h3>
       <ul class="filter__list">
         <li class="filter__list__item">
-          <input class="filter__list__item__checkbox icheckbox_flat-blue" id="MD" type="checkbox"><label class="filter__list__item__label">MD</label>
+          <input id="squaredThree" class="filter__list__item__checkbox .squaredThree" id="MD" type="checkbox"><label for="squaredThree" class="filter__list__item__label">MD</label>
         </li>
         <li class="filter__list__item">
           <input class="filter__list__item__checkbox icheckbox_flat-blue" id="CIO" type="checkbox"><label class="filter__list__item__label">CIO</label>
@@ -44,6 +44,21 @@
       </ul>
     </div>
   </div>
+
+
+  <!-- EVENT 1 -->
+
+  <div class="snippet__card">
+    <h3 class="snippet__card__title"><a href="http://mktdevphp/marcomm/Drupal-HTMLStructure-2/events-physician.php">Physician Forum</a></h3>
+    <h5 class="snippet__card__title__subhead--first">August 3rd-4th</h5>
+    <h5 class="snippet__card__title__subhead">Renaissance Waterfront Hotel - Boston, MA</h5>
+
+    <p class="snippet__card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    <button class="btn">Learn More</button>
+
+  </div>
+
 
   <dl>
     <dd><a href="#panel1b">

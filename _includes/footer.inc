@@ -196,18 +196,6 @@
 
 </footer>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/icheck.min.js"></script>
-
-<script>
-$(document).ready(function(){
-  $('input').iCheck({
-    checkboxClass: 'icheckbox_flat-blue',
-    radioClass: 'iradio_flat-blue'
-  });
-});
-</script>
-
 </body>
 
 </html>

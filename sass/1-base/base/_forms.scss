@@ -14,8 +14,8 @@ select {
 }
 
 label {
-  font-weight: bold;
-  margin-bottom: $base-line-height / 4;
+  // font-weight: bold;
+  // margin-bottom: $base-line-height / 4;
 
   &.required:after {
     content: "*";

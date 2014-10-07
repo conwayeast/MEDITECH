@@ -18,8 +18,11 @@
 
   .filter__list__item__checkbox {
     float: left;
-    margin-right: 1em;
-    margin-top: .35em;
+    margin-right: 0.6em;
+    margin-top: .15em;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
   }
 
   .filter__list__item__label {

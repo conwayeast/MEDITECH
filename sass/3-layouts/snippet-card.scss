@@ -1,0 +1,35 @@
+.snippet__card{
+  margin-bottom: 2em;
+  padding-bottom:2em;
+  border-bottom: 1px solid #ccc;
+}
+
+.snippet__card__title{
+  margin-bottom: 0.35em;
+}
+
+.snippet__card__title__subhead{
+  display:block;
+}
+
+.snippet__card__title__subhead--first{
+  @extend .snippet__card__title__subhead;
+  margin-bottom:0;
+}
+
+.snippet__card__text{
+
+}
+
+.snippet__card__text--bold{
+
+}
+
+.snippet__card__link{
+
+}
+
+.snippet__card__link--filters{
+
+}
+

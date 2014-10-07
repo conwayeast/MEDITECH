@@ -4,53 +4,6 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* blue */
-.icheckbox_flat-blue,
-.iradio_flat-blue {
-  display: inline-block;
-  *display: inline;
-  vertical-align: middle;
-  margin: 0;
-  padding: 0;
-  width: 20px;
-  height: 20px;
-  background: url(../img/blue.png) no-repeat;
-  border: none;
-  cursor: pointer; }
-
-.icheckbox_flat-blue {
-  background-position: 0 0; }
-
-.icheckbox_flat-blue.checked {
-  background-position: -22px 0; }
-
-.icheckbox_flat-blue.disabled {
-  background-position: -44px 0;
-  cursor: default; }
-
-.icheckbox_flat-blue.checked.disabled {
-  background-position: -66px 0; }
-
-.iradio_flat-blue {
-  background-position: -88px 0; }
-
-.iradio_flat-blue.checked {
-  background-position: -110px 0; }
-
-.iradio_flat-blue.disabled {
-  background-position: -132px 0;
-  cursor: default; }
-
-.iradio_flat-blue.checked.disabled {
-  background-position: -154px 0; }
-
-/* HiDPI support */
-@media (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
-  .icheckbox_flat-blue,
-  .iradio_flat-blue {
-    background-image: url(blue@2x.png);
-    -webkit-background-size: 176px 22px;
-    background-size: 176px 22px; } }
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -484,13 +437,10 @@ select {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em; }
 
-label {
-  font-weight: bold;
-  margin-bottom: 0.375em; }
-  label.required:after {
-    content: "*"; }
-  label abbr {
-    display: none; }
+label.required:after {
+  content: "*"; }
+label abbr {
+  display: none; }
 
 textarea,
 input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"],
@@ -813,7 +763,8 @@ article {
   text-decoration: none;
   color: #009abc; }
   .sidebar__nav__link:hover {
-    color: #003a69; }
+    color: #003a69;
+    cursor: pointer; }
   .sidebar__nav__link:before {
     content: "\00bb";
     position: absolute;
@@ -933,10 +884,27 @@ a.readmore {
 
 .filter__list__item__checkbox {
   float: left;
-  margin-right: 1em;
-  margin-top: .35em; }
+  margin-right: 0.6em;
+  margin-top: .15em;
+  width: 20px;
+  height: 20px;
+  cursor: pointer; }
 
 .filter__list__item__label {
   float: left; }
+
+.snippet__card {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc; }
+
+.snippet__card__title {
+  margin-bottom: 0.35em; }
+
+.snippet__card__title__subhead, .snippet__card__title__subhead--first {
+  display: block; }
+
+.snippet__card__title__subhead--first {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */

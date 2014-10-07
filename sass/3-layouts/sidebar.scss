@@ -29,6 +29,7 @@
 		color: $key-west;
 		&:hover{
 			color: $blueberry;
+			cursor: pointer;
 		}
 		&:before {
 			content: "\00bb";
