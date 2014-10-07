@@ -41,6 +41,10 @@ a.readmore{
 	padding: 1em 0;
 }
 
+.body-with-sidebar{
+  @include span-columns(8);
+}
+
 
 
 

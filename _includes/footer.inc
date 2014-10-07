@@ -196,109 +196,17 @@
 
 </footer>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/icheck.min.js"></script>
 
-<!--</div>
- #page -->
-
-<!--</div>
- .sb-site -->
-<!-- These closing divs are for the slidebars navigation in the header include -->
-
-
-<!-- LEFT SIDEBAR MENU
-<div class="sb-slidebar sb-left">
-  <nav>
-    <ul class="sb-menu">-->
-      <!-- SOLUTIONS
-      <li><a href="solutions.php">EHR Solutions</a>
-      </li>-->
-      <!-- EVENTS
-      <li><a href="events.php">Events</a>
-      </li>-->
-      <!-- NEWS
-      <li><a href="news.php">News</a>
-      </li>-->
-      <!-- ABOUT
-      <li><a href="about.php">About</a>
-      </li>-->
-      <!-- CONTACT
-      <li><a href="contact.php">Contact</a>
-      </li>
-    </ul>
-  </nav>
-</div>-->
-<!-- END LEFT SIDEBAR MENU -->
-
-
-<!-- RIGHT SIDEBAR MENU -->
-<!-- <div class="sb-slidebar sb-right">
-    <h2>Please login to your MEDITECH account</h2>
-    <nav>
-      <ul class="sb-menu">
-        <li>
-          <input type="text" placeholder="Username">
-        </li>
-        <li>
-          <input type="text" placeholder="Password">
-        </li>
-        <li>
-          <input class="button expand" type="submit" id="searchsubmit" value="Login" />
-        </li>
-      </ul>
-    </nav>
-    <p>Trouble logging in?
-      <br>Please visit <a href="#" style="color:#009abc;">our login page</a> for more detailed instructions.</p>
-  </div> -->
-<!-- End RIGHT SIDEBAR MENU -->
-
-
-
-
-<!-- The if statement below loads an older version of jquery for IE users -->
-<!--[if lt IE 9]>
-    <script src="js/vendor/jquery-1.10.2.js"></script>
-    <![endif]-->
-<!-- The if statement below loads a newer version
-        of JQuery that comes with Foundation 5 -->
-<!--[if (gte IE 9) | (!IE)]><!-->
-<script src="js/vendor/jquery.js"></script>
-<!--<![endif]-->
-
-<script src="js/foundation.min.js"></script>
-<script type="text/javascript">
-  $(document).foundation();
-</script>
-<!-- End of Foundation 5 files -->
-
-<!-- Slidebars -->
-<script src="js/menu/slidebars.min.js"></script>
-
-<!-- Init scripts -->
-<script type="text/javascript">
-  // INITS & other scripts
-  $(document).ready(function () {
-
-    // Load Foundation
-    $(document).foundation();
-
-    // Load Sidebars
-    var mySlidebars = new $.slidebars();
-
-    // Closes Accordion
-    $('.closeAccordion').click(function () {
-      $('.accordion .content').removeClass('active');
-    });
+<script>
+$(document).ready(function(){
+  $('input').iCheck({
+    checkboxClass: 'icheckbox_flat-blue',
+    radioClass: 'iradio_flat-blue'
   });
+});
 </script>
-
-<!-- Sticky Navigation - Function -->
-<script src="js/stickynav/stickynav.js"></script>
-
-<!-- Search Bar Dropdown Script -->
-<!-- <script src="js/search/search.js"></script> -->
-
-<!-- Polyfills fix for IE 8 & 9 -->
-<script src="js/rem.min.js"></script>
 
 </body>
 

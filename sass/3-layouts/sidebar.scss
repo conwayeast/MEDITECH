@@ -3,35 +3,37 @@
 	@include span-columns(4);
 }
 
-.panel{
-	background: #f1f1f1;
-	padding: 1em;
-	position: relative;
+.sidebar__nav{ 
+
 }
 
-
-.sidebar__nav{	
+	.sidebar__nav__list{
 		padding:0;
 		list-style-type: none;
-		li{
-			padding: .8em 0 1em 0;
-			border-bottom: 1px solid #ccc;
-			&:last-child{
-				border-bottom: none;
-				padding-bottom: 0;
-				}
-			a{
-				text-decoration: none;
-				color: $key-west;
-				&:hover{
-					color: $blueberry;
-				}
-				&:before {
-					content: "\00bb";
-					position: absolute;
-					padding-right: 1.5em;
-					right: 0;
-				}
-			}
+	}
+
+	.sidebar__nav__list__item{
+		padding: .8em 0 1em 0;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 0;
+	}
+
+	.sidebar__nav__list__item--last{
+		@extend .sidebar__nav__list__item;
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+
+	.sidebar__nav__link{
+		text-decoration: none;
+		color: $key-west;
+		&:hover{
+			color: $blueberry;
 		}
-}
+		&:before {
+			content: "\00bb";
+			position: absolute;
+			padding-right: 1.5em;
+			right: 0;
+		}
+	}

@@ -1,0 +1,19 @@
+.btn{
+  padding: 0.5em 2em;
+  background: $key-west;
+  font-size: 1.2em;
+  &:hover{
+    background: $blueberry;
+  }
+}
+
+.btn__link{
+  color: #fff;
+  &:hover{
+    color: #fff;
+  }
+}
+
+.btn__link--full-width{
+  width: 100%;
+}

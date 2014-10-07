@@ -1,0 +1,27 @@
+.filter {
+  // @include outer-container;
+  @include clearfix;
+}
+
+  .filter__list {
+
+  }
+
+  .filter__list__title {
+
+  }
+
+  .filter__list__item {
+    @include span-columns(4);
+    @include omega(3n);
+  }
+
+  .filter__list__item__checkbox {
+    float: left;
+    margin-right: 1em;
+    margin-top: .35em;
+  }
+
+  .filter__list__item__label {
+    float: left;
+  }

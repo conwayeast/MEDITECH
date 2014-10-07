@@ -28,8 +28,9 @@ article{
   padding-right: 1em;
 }
 
-.news-article{
-  @include span-columns(4);
-  padding: 0.5%;
-  margin: 0;
+.panel{
+  background: #f1f1f1;
+  padding: 1em;
+  position: relative;
+  margin-bottom: 2em;
 }
